@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="random">
+        <div class="head">
+            <p>True Random Number Generator</p>
+        </div>
+
+        <form name="forma">
+            <label>Min: <input type="number" id="numberMin" class="min"></label><br>
+            <label>Max: <input type="number" id="numberMax" class="max"></label><br>
+            <label>Amount: <input type="number" id="amount" ></label>
+
+        </form>
+
+        <input type="button" onclick="Click()" value="Generate" id="button"></input>
+        <p id="textResult">Result:</p>
+        <div id="result">
+            <p id="rez"></p>
+            <p id="minRez"></p>
+            <p id="maxRez"></p>
+            <p id="date"></p>
+        </div>
+        <div class="footer">Copy by <a href="#">RANDOM.ORG</a></div>
+    </div>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

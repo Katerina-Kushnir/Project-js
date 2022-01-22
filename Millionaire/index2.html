@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fon">
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close"><a href="index.html">&times;</a></span>
+                    <h1>Вы выиграли!</h1>
+                    <p>Ваш выиграш составил 1 000 000 грн</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="five_button">
+            <div class="left_group">
+                <button class="btn_game" id="finishGame"><a href="index.html">Выиграш</a></button>
+            </div>
+            <div class="right_group">
+                <button class="btn_game" id="fiftyFifty">50:50</button>
+                <button class="btn_game" id="callFriend">Звонок</button>
+                <button class="btn_game" id="hall-help">Помощь</button>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button id ="timer"></button>
+            </div>
+            <div class="col-3">
+                <img class="logo_game" src="./img/logo.png" alt="logo">
+            </div>
+            <div class="col-3">
+                <ol id="listQuestions">
+                    <li><span>1</span><p>100</p></li>
+                    <li><span>2</span><p>200</p></li>
+                    <li><span>3</span><p>300</p></li>
+                    <li><span>4</span><p>500</p></li>
+                    <li class="fireproof"><span>5</span><p>1 000</p></li>
+                    <li><span>6</span><p>2 000</p></li>
+                    <li><span>7</span><p>4 000</p></li>
+                    <li><span>8</span><p>8 000</p></li>
+                    <li><span>9</span><p>16 000</p></li>
+                    <li class="fireproof"><span class="left">10</span><p>32 000</p></li>
+                    <li><span class="left">11</span><p>64 000</p></li>
+                    <li><span class="left">12</span><p>125 000</p></li>
+                    <li><span class="left">13</span><p>250 000</p></li>
+                    <li><span class="left">14</span><p>500 000</p></li>
+                    <li class="fireproof"><span class="left">15</span><p>1 000 000</p></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>
+                <span id="correct-answer"></span> 
+                <span id="number-of-all-questions-2"></span> 
+            </p>
+        </div>
+        
+        <div class="question-number">
+            <p>
+                <span id="number-of-question"></span>
+                <span id="number-of-all-question"></span>
+            </p>
+        </div>
+
+
+        <div class="button">
+            <a id="btn-next" href="#"><i class="arrow right"></i></a>
+        </div>
+      
+        <div id="question"></div>
+
+        <div class="answers">
+                <div data-id="0" class="option option_A"><span>A</span></div>
+                <div data-id="1" class="option option_B"><span>B</span></div>
+                <div data-id="2" class="option option_C"><span>C</span></div>
+                <div data-id="3" class="option option_D"><span>D</span></div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

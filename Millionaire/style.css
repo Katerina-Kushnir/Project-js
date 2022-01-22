@@ -1,0 +1,709 @@
+* {
+    box-sizing: border-box;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.start_page, .fon {
+    background-image: radial-gradient(farthest-side, rgb(94, 113, 175), rgb(30, 30, 97));
+    position:absolute; 
+    height:auto; 
+    width:100%;
+}
+
+.logo {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 70px;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+.three_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .three_button {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .three_button {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color:rgb(6, 14, 85);
+    border: 2px solid white;
+    border-radius: 25px;
+    background-image: linear-gradient(170deg, rgba(255,255,255,.0) 30%, rgba(104, 108, 167, 0.6), rgba(255,255,255,.1) 70%), radial-gradient(180% 100% at 100% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 30%, rgba(0,0,0,0) 80%);
+    background-repeat: no-repeat;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .btn {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .btn {
+        width: 160px;
+        height: 50px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.btn:hover {
+    width:250px;
+    height: 60px;
+    font-size: 22px;
+    text-shadow: 3px 2px 3px rgb(153, 176, 192);
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px white;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .btn:hover {
+        width:230px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .btn:hover {
+        width:200px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Страница с инструкцией*/
+.instruction_page {
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(farthest-side, rgb(94, 113, 175), rgb(30, 30, 97));
+    position:absolute; 
+    height:auto; 
+    width:100%;
+}
+
+span, b {
+    color:orange;
+}
+
+.instruction_page h1 {
+    text-align: center;
+}
+
+.instruction_page p {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+h2 {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-indent: 20px;
+}
+
+h3 {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 50px 40px 30px;
+    text-align: center;
+}
+
+h2, li {
+    font-style: italic;
+}
+
+.instructorLi li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .instruction_page p, h2, h3, li {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .instruction_page p, h2, h3, li {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .instruction_page p, h2, h3, li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .instruction_page p, h2, h3, li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.footer p {
+    margin-top: 40px;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+
+/*Страница с вопросами*/
+.logo_game {
+    width: 400px;
+    margin-left: 30px;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .logo_game {
+        width:90%;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo_game {
+        width:90%;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo_game {
+        width:90%;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_game {
+        width:70%;
+        position: relative;
+        top:-440px;
+        left: 10%;
+    }
+}
+
+.five_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_group {
+    margin-right: 10px;
+}
+
+.btn_game {
+    margin: 10px 10px 0 10px;
+    width: 90px;
+    height: 55px;
+    font-size: 18px;
+    background-color:rgb(6, 14, 85);
+    border: 2px solid white;
+    border-radius: 35px;
+    background-image: linear-gradient(170deg, rgba(255,255,255,.0) 30%, rgba(104, 108, 167, 0.6), rgba(255,255,255,.1) 70%), radial-gradient(180% 100% at 100% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 30%, rgba(0,0,0,0) 80%);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    .btn_game {
+        width: 70px;
+        height: 45px;
+        font-size: 14px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn_game {
+        width: 50px;
+        height: 35px;
+        font-size: 10px;
+        padding: 0;
+        margin: 5px 2px 0px 2px;
+    }
+}
+
+.btn_game:hover {
+    box-shadow: 1px 1px 1px white;
+    background-image: linear-gradient(170deg, rgba(255,255,255,.0) 100%, rgba(104, 108, 167, 0.8), rgba(255,255,255,.1) 90%), radial-gradient(180% 100% at 100% 0%, rgba(255,255,255,.4) 0%, rgba(255,255,255,.5) 0%, rgba(0,0,0,0) 70%);
+}
+
+.option {
+    display: inline-block;
+}
+
+.answers span {
+    font-weight: bold;
+} 
+
+#question {
+    margin: -20px auto 0;
+    border: 3px solid white;
+    border-radius: 40px;
+    width: 800px;
+    height: 60px;
+    line-height: 60px;
+    background-image: linear-gradient(170deg, rgba(255,255,255,.0) 100%, rgba(104, 108, 167, 0.8), rgba(255,255,255,.1) 90%), radial-gradient(180% 100% at 100% 0%, rgba(255,255,255,.4) 0%, rgba(255,255,255,.5) 0%, rgba(0,0,0,0) 70%);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.option {
+    margin: 10px 120px;
+    border: 3px solid white;
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    background-image: linear-gradient(170deg, rgba(255,255,255,.0) 100%, rgba(104, 108, 167, 0.8), rgba(255,255,255,.1) 90%), radial-gradient(180% 100% at 100% 0%, rgba(255,255,255,.4) 0%, rgba(255,255,255,.5) 0%, rgba(0,0,0,0) 70%);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .option {
+        margin: 10px 120px;
+        border: 3px solid white;
+        border-radius: 40px;
+        width: 250px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+
+.option:hover {
+    box-shadow: 1px 1px 1px white;
+    background:  rgb(32, 21, 77);
+    cursor: pointer;
+}
+
+.answers div.correct  {
+    background-color:rgb(6, 156, 43);
+}
+
+.answers div.wrong {
+    background-color:rgb(233, 8, 8);
+}
+
+.answers div.disabled {
+    pointer-events: none;
+}
+
+.answers {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+#listQuestions {
+    width: 100%;
+    padding-top: 10px;
+}
+
+#listQuestions p {
+    display: inline;
+    padding-left: 12px;
+}
+
+#listQuestions li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+li > span.left {
+    margin-left: -6px;
+}
+
+#timer {
+    float: left;
+    margin-top: 140px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 100px;
+    background-color: rgba(94, 113, 175, .0);
+    border: 5px solid white;
+    width:150px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    #timer {
+        margin-top: 38%;
+        margin-left: 20%;
+        font-size: 80px;
+        width:130px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #timer {
+        margin-top: 48%;
+        margin-left: 20%;
+        font-size: 60px;
+        width:110px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+        #timer {
+        margin-top: 60%;
+        margin-left: 25%;
+        font-size: 30px;
+        width:70px;
+        height: 50px;
+        border: 4px solid white;
+    }
+}
+
+@media (max-width: 480px) {
+    #timer {
+        position: relative;
+        top: -750px;
+        left: 15%;
+        font-size: 30px;
+        width:70px;
+        height: 50px;
+        border: 4px solid white;
+
+    }
+}
+
+.col-3 {
+    height: 400px;
+    width: 33.333%;   
+}
+
+@media (max-width: 480px) {
+    .col-3 {
+        width: 100%;   
+    }
+}
+  
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}  
+
+@media (max-width: 480px) {
+    .row {
+        flex-flow: column-reverse;
+    }
+}
+
+#number-of-all-question {
+    display: none;
+}
+
+.question-number {
+    text-align: center;
+    position: relative;
+}
+
+.question-number span {
+    margin-left: -40px;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -135px;
+}
+
+.button {
+    position: relative;
+}
+
+.button a {
+    position: absolute;
+    margin-left: 1420px;
+    margin-top: 90px;
+    padding: 8px 5px 5px 10px;
+    border: 3px outset rgb(52, 37, 114);
+    width: 50px;
+    background-image: linear-gradient(170deg, rgba(255,255,255,.0) 40%, rgba(104, 108, 167, 0.8), rgba(255,255,255,.1) 100%), radial-gradient(180% 100% at 250% 0%, rgba(255,255,255,.4) 60%, rgba(255,255,255,.5) 0%, rgba(0,0,0,0) 80%);
+
+}
+
+i {
+    border: solid rgb(29, 17, 77);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 7px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+li > p {
+    color: rgb(255, 210, 113);
+}
+
+li.fireproof > p {
+    color: white;
+}
+
+li.fireproof span{
+    color: white;
+}
+
+li.correct {
+    color: green;
+}
+
+li.wrong {
+    color: green;
+}
+
+#listQuestions {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 120%;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    #listQuestions {
+        padding-top: 25px;
+        margin-left: -50px;
+        font-size: 13px;
+        width: 130%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #listQuestions {
+        margin-left: -50px;
+        padding-top: 35px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    #listQuestions {
+        margin-left: -100px;
+        padding-top: 35px;
+        font-size: 11px;
+        width: 160%
+    }
+}
+
+@media (max-width: 480px) {
+    #listQuestions {
+        display: none;
+    }
+}
+
+.right_group > button.wrong {
+    background-color: red;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.blue {
+    background: blue;
+}
+
+.help {
+    background: rgb(255, 186, 57);
+}
+
+/*Модальное окно*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modalDisplay {
+    display: block;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #609ae7;
+    margin: auto;
+    padding: 0;
+    border: 5px solid #2f0d6e;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-image: radial-gradient(farthest-side, rgb(94, 113, 175), rgb(30, 30, 97));
+    color: white;
+}
+
+.modal-header h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.modal-header p {
+    text-align: center;
+}
